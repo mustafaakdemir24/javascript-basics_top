@@ -1,16 +1,19 @@
-let firstName = "John";
-let lastName = "Doe";
+let result = 3 + 2 - 76 * (1 + 1);
 
-console.log(firstName);
-console.log(lastName);
+result = 23 + 97;
 
-let age = 11;
-console.log(age); // outputs 11 to the console
+result = 65 + 58 + 15 + 15 + 35 + 145;
 
-age = 54;
-console.log(age); // outputs 54 to the console
+result = (4 + 6 + 9) / 77;
 
-const pi = 3.14;
-// pi = 10; // Uncaught TypeError: invalid assignment to const 'pi'
+let a = 11;
 
-console.log(pi);
+let b = 7 * a;
+
+const max = 57;
+
+const actual = max - 13;
+
+const percentage = actual / max;
+
+console.log(percentage);
